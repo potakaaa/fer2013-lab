@@ -1,0 +1,28 @@
+# CS 413 Week 7 — FER2013 lab notebook
+# Tested with Python 3.13 (TensorFlow 2.21 supports Python 3.10–3.13).
+# Install:  pip install -r requirements.txt
+#
+# Linux only: MediaPipe needs the EGL/GLES system libraries
+#   sudo apt-get install -y libegl1 libgles2
+# (without them the notebook automatically falls back to the Haar cascade).
+
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+tqdm==4.70.1
+joblib==1.6.0
+
+tensorflow==2.21.0
+mediapipe==1.1.1
+
+# OpenCV: MediaPipe depends on opencv-contrib-python (a superset of opencv-python that provides
+# the same `cv2` module). Installing both packages makes them overwrite each other's files, so
+# only the contrib build is listed. Pinned to 4.x because the OpenCV 5 wheels no longer ship the
+# Haar cascade XML files used as the face-detector fallback.
+opencv-contrib-python==4.14.0.94
+
+# Jupyter
+jupyter==1.1.1
+ipykernel==7.4.0
