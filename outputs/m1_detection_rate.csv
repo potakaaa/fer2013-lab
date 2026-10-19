@@ -1,0 +1,9 @@
+class,sampled,face found,fallback (full image),detection rate %
+angry,200,197,3,98.5
+disgust,200,194,6,97.0
+fear,200,198,2,99.0
+happy,200,199,1,99.5
+sad,200,196,4,98.0
+surprise,200,200,0,100.0
+neutral,200,200,0,100.0
+TOTAL,1400,1384,16,98.9

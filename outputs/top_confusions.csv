@@ -1,0 +1,6 @@
+true,predicted as,count,share of true class
+sad,neutral,233,0.187
+sad,angry,185,0.148
+neutral,sad,175,0.142
+fear,sad,173,0.169
+sad,fear,167,0.134

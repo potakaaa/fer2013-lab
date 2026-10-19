@@ -1,0 +1,5 @@
+model,class_weight,val accuracy,val macro-F1,fit time (s),selected
+Logistic Regression,None,0.4964,0.4479,64.1535,
+Logistic Regression,balanced,0.4948,0.4494,61.5976,✓
+Linear SVM,None,0.4992,0.4405,375.4421,
+Linear SVM,balanced,0.4964,0.4406,419.6862,✓
