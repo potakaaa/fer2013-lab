@@ -29,4 +29,5 @@ Set `SAMPLE_PER_CLASS` in the first code cell to a small number (e.g. `50`) for 
 |---|---|
 | `outputs/` | Figures and tables for the report |
 | `models/` | Best model (`fer_best_model.joblib`) |
+| `report/` | Report PDF, rebuilt from `outputs/` with `python report/build_report.py` |
 | `features/` | Cached embeddings (git-ignored) |
