@@ -26,6 +26,3 @@ opencv-contrib-python==4.14.0.94
 # Jupyter
 jupyter==1.1.1
 ipykernel==7.4.0
-
-# Report PDF (report/build_report.py)
-reportlab==5.0.1
