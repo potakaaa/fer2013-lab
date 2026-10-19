@@ -13,7 +13,7 @@ sudo apt-get install -y libegl1 libgles2
 
 ## Data
 
-FER2013 is not included in this repository. Place it as:
+FER2013 (35,887 images) is included under `data/`:
 
 ```
 data/train/{angry,disgust,fear,happy,sad,surprise,neutral}/*.png|jpg
